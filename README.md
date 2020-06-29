@@ -8,7 +8,7 @@ Please Put Your Documents in This Repo **According to Your Identity**.
 
 # Items working on
 
-**Write down your status for each file below**
+**Please write down your status for each file below**
 
 ## GMZ
 

@@ -32,10 +32,10 @@ Please Put Your Documents in This Repo **According to Your Identity**.
 
 ## SJD
 
-|     FILE      |               STATUS               |
-| :-----------: | :--------------------------------: |
-|  Requirement  | Almost Done (Need Comm. with Dev.) |
-|  User Manual  |                Done                |
-| Specification | Almost Done (Need Comm. with P.M.) |
-|  Validation   |       Lack of Model Checking       |
-| Traceability  |        Haven't Started Yet         |
+|     FILE      |       STATUS        |
+| :-----------: | :-----------------: |
+|  Requirement  |        Done         |
+|  User Manual  |        Done         |
+| Specification |        Done         |
+|  Validation   |        Done         |
+| Traceability  | Haven't Started Yet |

@@ -75,7 +75,6 @@ int getFirstCoordinate(int id) {
 
 void moveUp() {
 	int type, coordinate;
-	copyPosition();
 	type = checkChessType(id);
 	coordinate = getFirstCoordinate(id);
 	if(type == 11) {
@@ -111,7 +110,6 @@ void moveUp() {
 
 void moveDown() {
 	int type, coordinate;
-	copyPosition();
 	type = checkChessType(id);
 	coordinate = getFirstCoordinate(id);
 	if(type == 11) {
@@ -147,7 +145,6 @@ void moveDown() {
 
 void moveLeft() {
 	int type, coordinate;
-	copyPosition();
 	type = checkChessType(id);
 	coordinate = getFirstCoordinate(id);
 	if(type == 11) {
@@ -183,7 +180,6 @@ void moveLeft() {
 
 void moveRight() {
 	int type, coordinate;
-	copyPosition();
 	type = checkChessType(id);
 	coordinate = getFirstCoordinate(id);
 	if(type == 11) {
@@ -222,7 +218,7 @@ void nextRound() {
 	return;
 }
 
-</declaration><location id="id0" x="-488" y="-304"><name x="-498" y="-334">new_state</name></location><location id="id1" x="-840" y="-304"><name x="-872" y="-336">init_state</name></location><init ref="id1"/><transition><source ref="id0"/><target ref="id1"/><label kind="assignment" x="-704" y="-128">nextRound()</label><nail x="-488" y="-272"/><nail x="-488" y="-104"/><nail x="-840" y="-104"/></transition><transition><source ref="id1"/><target ref="id0"/><label kind="assignment" x="-696" y="-328">moveLeft()</label><nail x="-664" y="-336"/></transition><transition><source ref="id1"/><target ref="id0"/><label kind="assignment" x="-704" y="-296">moveRight()</label><nail x="-664" y="-264"/></transition><transition><source ref="id1"/><target ref="id0"/><label kind="assignment" x="-704" y="-216">moveDown()</label><nail x="-664" y="-216"/></transition><transition><source ref="id1"/><target ref="id0"/><label kind="assignment" x="-696" y="-408">moveUp()</label><nail x="-664" y="-384"/></transition></template><system>// Place template instantiations here.
+</declaration><location id="id0" x="-1016" y="-304"><name x="-1056" y="-336">Uninitialized</name></location><location id="id1" x="-488" y="-304"><name x="-498" y="-334">new_state</name></location><location id="id2" x="-840" y="-304"><name x="-872" y="-336">init_state</name></location><init ref="id0"/><transition><source ref="id0"/><target ref="id2"/><label kind="assignment" x="-988" y="-304">copyPosition()</label></transition><transition><source ref="id1"/><target ref="id2"/><label kind="assignment" x="-704" y="-128">nextRound()</label><nail x="-488" y="-272"/><nail x="-488" y="-104"/><nail x="-840" y="-104"/></transition><transition><source ref="id2"/><target ref="id1"/><label kind="assignment" x="-696" y="-328">moveLeft()</label><nail x="-664" y="-336"/></transition><transition><source ref="id2"/><target ref="id1"/><label kind="assignment" x="-704" y="-296">moveRight()</label><nail x="-664" y="-264"/></transition><transition><source ref="id2"/><target ref="id1"/><label kind="assignment" x="-704" y="-216">moveDown()</label><nail x="-664" y="-216"/></transition><transition><source ref="id2"/><target ref="id1"/><label kind="assignment" x="-696" y="-408">moveUp()</label><nail x="-664" y="-384"/></transition></template><system>// Place template instantiations here.
 Process = model();
 
 // List one or more processes to be composed into a system.

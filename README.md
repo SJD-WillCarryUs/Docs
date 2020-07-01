@@ -14,11 +14,11 @@ Please Put Your Documents in This Repo **According to Your Identity**.
 
 |     FILE      | STATUS |
 | :-----------: | :----: |
-|  Requirement  |        |
-|  User Manual  |        |
-| Specification |        |
-|  Validation   |        |
-| Traceability  |        |
+|  Requirement  |  Done  |
+|  User Manual  |  Done  |
+| Specification |  Done  |
+|  Validation   |  Done  |
+| Traceability  |  Done  |
 
 ## HZA
 
